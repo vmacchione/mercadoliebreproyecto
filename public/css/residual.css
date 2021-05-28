@@ -1,0 +1,138 @@
+
+/*Formulario de Registro*/
+fieldset{    
+    width: 100%;
+    margin: auto;
+    background-color: white;
+    border-radius: 5px;
+    margin: 5px auto;
+    font-size: 10px;
+}
+fieldset input{
+    display: block;
+    background-color: white;
+    width: 100%;
+    border: none;
+    margin: 10px auto;
+    border-bottom: solid 1px grey;
+}
+.register-form-user-adress{
+    display: flex;
+    flex-wrap: wrap;
+}
+::placeholder{
+    font-size: 10px;
+}
+fieldset label{
+    display: none;
+}
+/*Aplico CSS a los label que no se oculta*/
+.register-form-birthday{
+    display: block;
+}
+.register-form-user-profile{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.register-form-user-profile label{
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    display: block;
+}
+.register-form-user-profile input{
+    display: block;
+    width: 20%;
+    text-align: center;    
+}
+.register-form-category{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.register-form-category .prueba{
+    width: 100%;
+}
+.register-form-category label{
+    text-align: left;
+    align-self: center;
+    display: block;
+    width: 40%;
+    border: solid 1px yellow;
+}
+.register-form-category input{
+    width: 5%;    
+}
+.register-form-user-image{
+    display: block;
+}
+.register-form-user-image label{
+    display: block;
+}
+.register-form-user-image input{
+    text-align: center;
+    font-size: 10px;
+
+}
+.register-form-button{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    border: none;
+    background-color: #ebebeb;
+}
+.boton-enviar{
+    width: 30%;
+    background-color: #1259c3;
+    text-align: center;
+    color: white;
+    border: solid 1px  #ebebeb;
+    border-radius: 5px;
+}
+.boton-reset{
+    width: 30%;
+    background-color:red;
+    text-align: center;
+    color: white;
+    border: solid 1px  #ebebeb;
+    border-radius: 5px;
+}
+
+/*Formulario de Login*/
+
+.loginForm{
+    width: 90%;
+    background-color: #ebebeb;
+    margin: 50px auto;
+    border-radius: 8px;
+}
+
+.login-form-element{    
+    width: 100%;
+    margin: auto;
+    background-color: white;
+    display: flex;
+    border: solid 1px  #ebebeb;
+    border-radius: 5px;
+    margin: 10px auto;
+
+}
+
+.login-form-element input{
+    display: block;
+    background-color: white;
+    width: 100%;
+    border: none;
+    margin: 10px auto;
+}
+
+.boton-ingresar{
+    width: 100%;
+    background-color: #1259c3;
+    text-align: center;
+    color: white;
+    border: solid 1px  #ebebeb;
+    border-radius: 5px;
+}

@@ -24,7 +24,7 @@ h3{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-between
 }
 
 .main-header-top{
@@ -35,7 +35,7 @@ h3{
 }
 
 .logo-empresa{
-    width: 50%;
+    width: 40%;
     display: flex;
     justify-content: left;  
 }
@@ -43,8 +43,8 @@ h3{
 .search{
     background-color: white;
     background-size: contain;
-    border-radius: 3px;
-    padding: 10px;
+    border-radius: 5px;
+    padding: 3px;    
     margin: 15px;
     display: flex;
     justify-content: center;
@@ -99,9 +99,9 @@ h3{
     display: block;
     max-width: 50px;
     padding: 10px 10px;
-    border-radius: 8px;
+    border-radius: 5px;
     text-align: center;
-    margin: 10px auto;
+    margin: 5px auto;
     font-size: 15px;
 }
 
@@ -115,9 +115,10 @@ h3{
 .loginForm{
     width: 90%;
     background-color: #ebebeb;
-    margin: 50px auto;
+    margin: 50px auto 200px auto;
     border-radius: 8px;
     font-size: 10px;
+    font-weight: bold;
     display: flex;
     flex-wrap: wrap;
 }
@@ -176,16 +177,17 @@ h3{
 }
 
 .copy-right{
-    font-size: 8px;
+    margin-top: 10px;
     text-align: left;
     width: 95%;
-    margin: 20px auto;
+    margin: 10px auto;
+    font-size: 10px;
 }
 
 @media (min-width: 361px){
     /* Tablets */
 
-    /*HEADER*/
+    /*HEADER**********************************/
     .burger-menu{
         display: none;
     }
@@ -194,7 +196,7 @@ h3{
         flex-wrap: nowrap;
     }
     .logo-empresa{
-        width: 33%;
+        width: 25%;
     }
     .search{
         width: 30%;
@@ -202,11 +204,13 @@ h3{
 
     .main-header-top p{
         width: 30%;
+        font-size: 10px;
     }
 
     .main-header-bottom{
         display: flex;
         margin: 10px auto;
+
     }
  
     .main-navbar{
@@ -215,17 +219,21 @@ h3{
         justify-content: space-between;
     }
 
-    .main-navbar-left{
+    .main-navbar ul{
         font-size: 16px;
+    }
+    
+    .main-navbar-left{
+        font-size: 18px;
         display: flex;       
-        width: 45%;
+        width: 40%;
         justify-content: space-around;
     }
 
     .main-navbar-right{
         font-size: 16px;
         display: flex;        
-        width: 45%;
+        width: 50%;
         justify-content: space-around;
     }
 
@@ -256,6 +264,7 @@ h3{
         margin: 0px 5px;
     }
 
+    /*MAIN************************************/
     .loginForm{
         max-width: 300px;
     }
@@ -263,11 +272,19 @@ h3{
 }
 @media (min-width: 769px){
 
-    /*HEADER*/
+    /*HEADER***********************************/
+    .search{
+        margin: 30px;
+    }
+
+    .main-navbar ul{
+        font-size: 25px;
+    }
+
     .main-navbar a{
         transition: all 200ms ease-in;
     }
-    
+
     .main-navbar a:hover{
         border-bottom: solid 1px black ;
     }
@@ -291,8 +308,6 @@ h3{
     .box-footer i:hover{
         zoom: 105%;
         }
-
-
 }
    
 

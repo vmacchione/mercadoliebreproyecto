@@ -12,7 +12,7 @@
     <!--Aca arranca el header-->     
     <header class='main-header'>
         <div class="main-header-top">
-        <img src ="/img/logo-mercado-liebre.svg" alt = "Logo de la empresa" class="logo-empresa">
+        <a class="logo-empresa" href="/"><img src ="/img/logo-mercado-liebre.svg" alt = "Logo de la empresa"></a>
         <form action="/search" method="POST" class="search">    
             <input type="text" name="precio" placeholder="Buscar productos, marcas" class="search-bar"><i class="fas fa-search"></i>
         </form>
@@ -141,13 +141,13 @@
 
             <fieldset class="register-form-element">
                 <label for="userPassword">Contraseña
-                <input type="password" placeholder="" name="userPassword" id="userPassword" required>
+                <input type="password" placeholder="" name="userPassword" id="userPassword" required minlength="5">
                 </label>
             </fieldset>
 
             <fieldset class="register-form-element">
                 <label for="userPassword">Confirmar contraseña
-                <input type="password" placeholder="" name="userPassword" id="userPassword" required>
+                <input type="password" placeholder="" name="userPassword" id="userPassword" required minlength="5">
                 </label>
             </fieldset>    
 

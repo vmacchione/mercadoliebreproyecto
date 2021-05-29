@@ -12,7 +12,7 @@
     <!--Aca arranca el header-->     
     <header class='main-header'>
         <div class="main-header-top">
-        <img src ="/img/logo-mercado-liebre.svg" alt = "Logo de la empresa" class="logo-empresa">
+        <a class="logo-empresa" href="/"><img src ="/img/logo-mercado-liebre.svg" alt = "Logo de la empresa"></a>
         <form action="/search" method="POST" class="search">    
             <input type="text" name="precio" placeholder="Buscar productos, marcas" class="search-bar"><i class="fas fa-search"></i>
         </form>
@@ -41,11 +41,11 @@
     <form class="loginForm" action="./" method="GET" enctype="multipart/form-data">
         <fieldset class="login-form-element"> 
             <label for="userName">Nombre de usuario</label>  
-            <input type="text" placeholder="" name="userName" id="userName" required minlength="1">
+            <input type="text" placeholder="" name="userName" id="userName" required minlength="5">
         </fieldset>
         <fieldset class="login-form-element">
             <label for="userPassword">Contraseña</label>
-            <input type="password" placeholder="" name="userPassword" id="userPassword" required>
+            <input type="password" placeholder="" name="userPassword" id="userPassword" required minlength="5">
         </fieldset>
         <button class="boton-ingresar" type="submit">Ingresar</button>
     </form>
